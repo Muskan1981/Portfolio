@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=poppins:wght@400;600;700&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .left {
+            font-size: xx-large;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(2, 2, 40);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: large;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: x-large;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            /* align-items: center; */
+        }
+
+        .first>div {
+            width: 40%;
+        }
+
+        .leftsection {
+            /* margin: 70px 0; */
+            font-size: 3rem;
+
+        }
+
+        .rightsection img {
+            height: 60%;
+        }
+
+        .color {
+            color: blueviolet;
+        }
+
+        .about {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        .side-text{
+            width: 70vw;
+            font-size: x-large;
+            font-family:'Poppins',sans-serif;
+        }
+        .side-text ul{
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Muskan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a class="active" href="/">Home</a></li>
+                    <li><a href="#Home">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsection">Hi , My name is <span class="color">Muskan Agarwal</span>
+                <div>and I am a passionate </div>
+                <div>Web Developer</div>
+            </div>
+            <div class="rightsection">
+                <img src="photo.jpg" alt="img">
+            </div>
+        </section>
+        
+        <section>
+        <div class="diffSection" id="Home">
+            <center>
+                <p style="font-size: 60px; padding: 100px"><b>About Me</b></p>
+            <div class="about-content">
+                <div class="side-text">
+                    <p> Hello! I'm Muskan Agarwal, a first-year B.Tech Computer Science Engineering student passionate
+                        about technology, problem-solving, and continuous learning .
+                        I did my schooling from City Montesssori School , Lucknow . I am pursuing my B.Tech from Krishna
+                        Institute of Technology , Ghaziabad.
+                        Currently, I am exploring the exciting fields of programming, data structures, and web
+                        development, while building a strong foundation in computer science. <br>
+
+                        I believe in a hands-on approach to learning, and I am keen to apply my knowledge to real-world
+                        challenges. My interests <br>
+
+                        <b>Coding:</b> solutions in Java , HTML and Css . <br>
+                        <b>Web Development:</b> Creating responsive and user-friendly websites and learning more about
+                        Web Development. <br>
+                        <b>Problem Solving:</b> Tackling coding challenges on platforms like LeetCode. <br>
+                        When I'm not coding, I enjoy reading , listening to music and playing sports. <br>
+                        This portfolio is a reflection of my journey as a budding computer science enthusiast. Thank you
+                        for taking the time to learn more about me! <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </center>
+</section>
+
+<section>
+            <div class="diffSection" id="Skills">
+            <center>
+                <p style="font-size: 60px; padding: 100px"><b>Skills</b></p>
+            <div class="skill-content">
+                <div class="side-text">
+                    <ul>
+                        <li>1. Front-End Development Skills
+                        HTML: Semantic markup, structuring web pages.
+                        CSS: Styling web pages, responsive design using Flexbox and Grid.</li>
+                       <li>2. Tools and Technologies
+                        Version Control: Git and GitHub (creating repositories, commits, pull requests).
+                        Text Editors/IDEs: Experience with Visual Studio Code or similar tools.
+                        Browser Developer Tools: Inspecting and debugging web pages.
+                       </li>
+                        <li>3. Soft Skills
+                        Problem-Solving: Ability to debug errors and find solutions.
+                        Collaboration: Working in a team.
+                        Learning Adaptability: Willingness to learn and apply new technologies.
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </center>
+</section>
+
+<section>
+    <div class="diffSection" id="Projects">
+    <center>
+        <p style="font-size: 60px; padding: 100px"><b>Projects</b></p>
+    <div class="skill-content">
+        <div class="side-text">
+            <ul>
+                <li>1. EduBrick:
+                    It is an educational website . I have made this with my team using HTML and Css.
+                </li>
+               <li>2. Sea Sena:
+                    It is a website that is based onn our project "SEA SENA" .
+               </li>
+                <li>3. Perfect Portfolio website:
+                    I have created this portfolio which showcases my interest and development skills.
+
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+</center>
+</section>
+
+        <section>
+        <div class="diffSection" id="Contact">
+            <center>
+                <p style="font-size: 60px; padding: 100px"><b>Contact Me</b></p>
+            <div class="skill-content">
+                <div class="side-text">
+                    <p>
+                        <a href="https://www.linkedin.com/in/muskan-agarwal-3582b2328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+                    </p>
+                    <p><a href="https://github.com/Muskan1981">GitHub</a></p>
+                    <p>muskanagarwal3105@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </center>
+</section>
+
+    </main>
+</body>
+
+</html>
